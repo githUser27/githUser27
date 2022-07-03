@@ -6,7 +6,7 @@ sg.theme('BrownBlue')   # Add a touch of color
 layout = [  [sg.Text('Some text on Row')],
             [sg.Text('Nom'), sg.InputText()],
             [sg.Text('Prenom'), sg.InputText()],
-            [sg.Button('OK'), sg.Button('CANCEL(2222)')] ]
+            [sg.Button('OK'), sg.Button('CANCEL(3333)')] ]
 
 # Create the Window
 window = sg.Window('Window Title', layout)
