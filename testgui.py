@@ -6,7 +6,7 @@ sg.theme('DarkAmber')   # Add a touch of color
 layout = [  [sg.Text('Some text on Row')],
             [sg.Text('Nom'), sg.InputText()],
             [sg.Text('Prenom'), sg.InputText()],
-            [sg.Button('Ok'), sg.Button('Cancel')] ]
+            [sg.Button('OK'), sg.Button('CANCEL')] ]
 
 # Create the Window
 window = sg.Window('Window Title', layout)
